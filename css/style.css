@@ -139,6 +139,11 @@ h2 {
     border-radius: 30px;
 }
 
+.learnmore-button:hover {
+    transition: 0.5s;
+    box-shadow: 0px 14px 30px -15px rgb(0 0 0 / 75%) !important;
+}
+
 /* About section */
 .basic-info-container {
     background: #a8d0e6;
