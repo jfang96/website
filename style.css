@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Inconsolata", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #333333;
+    background: #fff;
+    margin: 0;
+}
+
+.logo {
+    font-size: larger;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    text-align: right;
+}
+
+header,
+.intro-container {
+    display: flex;
+    padding: 16px 64px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+
+/* Header links */
+a {
+    color: #000;
+    position: relative;
+    text-decoration: none;
+}
+
+.intro-container {
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
