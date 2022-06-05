@@ -46,9 +46,25 @@ header {
 
 /* Header links */
 a {
-    color: #000;
+    color: rgba(0, 0, 0, 0.7);
     position: relative;
     text-decoration: none;
+}
+
+li.active > a {
+    color: #000;
+}
+
+li.active > a:after {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: #374785;
+    margin: 0 auto;
 }
 
 .dropdown {
