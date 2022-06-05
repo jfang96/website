@@ -107,16 +107,72 @@ h2 {
     font-family: "Inconsolata", Arial, sans-serif;
     font-weight: 400;
     color: black;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .learnmore-button {
     background: #a8d0e6;
     border: none !important;
     font-size: 18px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     padding: 18px 36px !important;
     touch-action: manipulation;
     cursor: pointer;
     box-sizing: border-box;
     border-radius: 30px;
+}
+
+/* About section */
+.basic-info-container {
+    background: #a8d0e6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.feature-card {
+    display: grid;
+    grid-template-columns: 70px 450px;
+    grid-template-rows: 40px 35px;
+    grid-template-areas: 
+        "icon text1"
+        "icon text2";
+    padding: 20px;
+    gap: 0px 10px;
+}
+
+.feature-card .icon {
+    /* Position */
+    display: grid;
+    grid-area: icon;
+}
+
+
+.feature-card .icon i {
+    /* Position */
+    display: flex;
+    grid-area: icon;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    /* Size and shape */
+    height: 60px;
+    width: 60px;
+    color: #374785 !important;
+    font-size: 30px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+h3 {
+    grid-area: text1;
+    align-self: end;
+    margin: 0;
+}
+
+p {
+    grid-area: text2;
+    align-self: center;
+    font-size: 14px;
 }
