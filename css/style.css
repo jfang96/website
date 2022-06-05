@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'icomoon';
-    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    src: url("../fonts/icomoon/icomoon.eot");
+    src: url("../fonts/icomoon/icomoon.eot") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf") format("truetype"), url("../fonts/icomoon/icomoon.woff") format("woff"), url("../fonts/icomoon/icomoon.svg") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -147,8 +147,7 @@ h2 {
 /* About section */
 .basic-info-container {
     background: #a8d0e6;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 5em 2em;
 }
 
 .feature-card {
